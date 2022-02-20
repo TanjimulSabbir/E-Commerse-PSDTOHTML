@@ -1,0 +1,491 @@
+*{
+    padding: auto;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding-left: 8%;
+}
+
+header{
+    display: flex;
+    background: rgb(255, 253, 253);
+    padding: 17px;
+}
+.navbarlogo img{
+display: inline-block;
+width: 50%;
+}
+.navbarlogo img{
+display: inline-block;
+vertical-align: middle;
+}
+.navbarul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+   align-self: center;
+   width: 100%;
+}
+.navbarul li{
+    display: inline;
+    padding-left: 5%;
+margin-left: 1%;
+}
+.navbarul li:first-child{
+  padding-left: 0px;
+}
+.navbarul a{
+    text-decoration: none;
+    color: #000; 
+       
+}
+.navbarul a:active{
+    color: rgb(245, 3, 3);
+}
+.carouselMainDiv{
+    position: relative;
+    width: 100%;
+}
+.first-txt {
+    position: absolute;
+    top: 13%;
+    color: rgba(252, 59, 59, 0.938);
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 70px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.first-txt span {
+    color: #002c3e;
+    font-family: 'Playfair Display', serif;
+}
+
+.second-txt {
+    position: absolute;
+    top: 35%;
+    width: 40%;
+}
+.button{
+    position: absolute;
+    background: rgb(250, 77, 77);
+    padding: 10px 45px 10px 45px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    bottom: 42%;
+    left: 8%;
+    transition: ease-out .6s;
+}
+.button:hover{
+    position: absolute;
+    padding: 10px 45px 10px 45px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-weight: bold;
+    bottom: 42%;
+    left: 8%;
+    box-shadow: inset 200px 0 0 0 rgb(250, 236, 37) ;
+   
+}
+
+.whyshopHeading{
+text-align: center;
+margin-top: 5%;
+font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.underline{
+    border-bottom: 5px red solid;
+    width: 5%;
+    margin-bottom: 2%;
+}
+.boxContainer{
+    display: flex;
+    
+}
+.box1, .box2, .box3{
+    text-align: center;
+    margin-top: 45px;
+    background-color: #044863;
+    padding: 45px 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: "Poppins";  
+}
+.newArrivalSection{
+    background-color: #d4ced0
+}
+.ArrivalImageAndText{
+    position: relative;
+    margin-top: 5%;
+    color: #002c3e;
+    font-family: 'Playfair Display', serif;
+}
+.T1{
+    position: absolute;
+    top: 25%;
+    margin-left: 45%;
+    font-size: 3rem;
+}
+.T2{
+position: absolute;
+top: 45%;
+margin-left: 45%;
+width: 45%;
+}
+.Arrivalbutton{
+    position: absolute;
+    background: rgb(250, 77, 77);
+    padding: 10px 45px 10px 45px;
+    color: white;
+    font-weight: bold;
+    top: 75%;
+    margin-left: 45%;
+} 
+.Our-Product-Section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(253, 251, 251);
+    box-shadow: 20px; 
+}
+.productImg img{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+}
+.productImg{
+    text-align: center;
+}
+/* .productBox1,.productBox2,.productBox3,.productBox4,.productBox5,.productBox6,.productBox7,
+.productBox8,.productBox9,.productBox10,.productBox11,.productBox12{
+   margin: 10px;
+} */
+.productImgText{
+    background-color: #f7f8f9;
+    box-shadow: 5px 5px 5px -5px rgb(0 0 0 / 20%);
+    margin: 10px;
+    border: solid #fff 10px;
+    padding: 35px 35px;
+    position: relative;
+    opacity: 1;
+}
+.ProductBoxHeading{
+    display: flex;
+   justify-content: space-evenly;
+   font-size: 12px;
+   padding: 0px 0 10px 0;
+}
+.options a{
+    text-decoration: none;
+    opacity: 1;
+    
+}
+.option1{
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    transition: all .5s ease-out .1ms;
+   
+}
+.option2{
+    display: block;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    transition: all .5s ease-out .1ms;
+    
+}
+.option1:hover{
+    display: block;
+    background: transparent;
+    color: rgb(252, 6, 6);
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    border: 1px red solid;
+}
+
+.option2:hover{
+    display: block;
+    color: rgb(7, 7, 7);
+    background-color: transparent;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    visibility: visible;
+}
+.productImgText{
+    position: relative;
+    transition: all .01s ease-out;
+    font-family: 'Playfair Display', serif;
+}
+.options{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    transition: all .01s ease-out;
+    opacity: 0;
+    
+}
+.productImgText:hover .options{
+    opacity: 1;
+ }
+ 
+/* product image & Text before */
+.productImgText::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all ease-out;
+}
+.productImgText:hover::before{
+    content: "";
+    opacity: .5;
+   background: rgb(251, 250, 250);
+}
+
+.viewallbtn{
+    text-align: center;
+    margin-top: 30px;
+    padding: 2% 5%;
+    
+}
+.viewallbtn button{
+    padding: 10px 45px;
+    font-size: 17px;
+    background: rgb(255, 61, 61);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all linear;
+}
+.viewallbtn a button:hover{
+background: white;
+border: 1px red solid;
+color: red;
+}
+ /* end production section*/
+
+/* start subscribe section */
+.SubscribeSection{
+    background: #d4ced0;
+    margin-top: 20px;
+    padding-bottom: 35px;    
+    font-family: 'Montserrat', sans-serif;
+}
+.SubscribeContainer{
+    padding-top: 60px;
+text-align: center;
+width: 50%;
+}
+.SubscribeContainer h1{
+margin-top: 20px;
+font-size: 2.3rem;
+font-weight: bolder;
+color: #002c3e;
+font-family: 'Playfair Display', serif;
+}
+.SubscribeContainer input{
+    margin-top: 25px;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px 50px 50px 50px;
+     border: 1px white solid;
+padding-left: 30px;
+}
+.SubscribeContainer p{
+margin-top: 25px;
+
+}
+.SubscribeContainer .SubscribeBtn{
+margin-top: 70px;
+padding-bottom: 60px;
+}
+.SubscribeContainer a{
+  background: rgb(248, 70, 70);
+    text-decoration: none;
+    padding: 15px 110px;
+    border-radius: 50px 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all linear;
+}
+.SubscribeContainer .SubscribeBtn a:hover{
+    color: red;
+    background: white;
+    border: 1px red solid;
+}
+/* Start Customer-Container Section */
+.CustomerContainer{
+    margin-top: 55px;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+.CustomerContainer .imageHeader h1{
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.CustomerContainer .Underline{
+    border: 3px red solid;
+    width: 5%;
+    margin-bottom: 20px;
+}
+.CustomerContainer .image{
+    display: flex;
+    justify-content: space-between;
+}
+.CustomerContainer .image img{
+    border-radius: 50%;
+  width: 15%;
+}
+/* arrow left-right Margin */
+.CustomerContainer .image .arrowLeft{
+    margin-left: 300px;
+    }
+.CustomerContainer .image .arrowRight{
+    margin-right: 300px;
+    }
+/* Arrow style+Hover */
+.CustomerContainer .image .arrow i{
+color: white;
+background: red;
+padding: 20px;
+border-radius: 50%;
+transition: all ;
+}
+.CustomerContainer .image .arrow i:hover{
+    background: rgb(17, 1, 102);
+}
+/* Customer Review section */
+.CustomerContainer .customer-review{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.CustomerContainer .customer-review h5{
+   color: rgba(128, 128, 128, 0.685);
+   margin-bottom: 10px;
+   font-family: 'Playfair Display', serif;
+}
+.CustomerContainer .customer-review p{
+   text-align: justify;
+   font-family: "Poppins";
+}
+
+/* Footer-Container */
+.footer-container{
+    background: #f8f8f8;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(4, 25%);
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-family: 'Montserrat', sans-serif;
+}
+/* footerSection+ footerIcon */
+.footer-container .footerIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin-left: -10px;
+}
+.footer-container .footerIcon p{
+    margin-top: 30px;
+   display: block;
+   word-wrap: break-word;
+   width: 250px;
+
+}
+.footer-container .footerIcon p span{
+   font-weight: bolder;
+}
+/*footerSection+ menu */
+.footer-container .menu{
+    height: 250px;
+    font-family: "poppins";
+}
+.footer-container .menu h2{
+    margin-top: 12px;
+}
+.footer-container .menu p{
+    margin-top: 10px;
+}
+/*footerSection+ account */
+.footer-container .account{
+    height: 250px;
+}
+.footer-container h2{
+    margin-top: 12px;
+}
+.footer-container p{
+    margin-top: 10px;
+}
+/*footerSection+ newsletter  */
+.footer-container .newsLetter{
+
+}
+.footer-container .newsLetter h2{
+    
+}
+.footer-container .newsLetter p{
+margin-top: 20px;
+}
+.footer-container .newsLetter input{
+margin-top: 15px;
+height: 40px;
+}
+.footer-container .newsLetter a{
+text-decoration: none;
+color: white;
+padding: 10px 7px;
+background: red;
+border: none;
+}
+/* lowest-footer-part */
+.lowest-footer-part{
+    background: rgba(26, 25, 25, 0.952);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.lowest-footer-part span{
+   color: red;
+}
